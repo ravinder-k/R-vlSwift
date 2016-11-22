@@ -1,0 +1,104 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FacebookCore (0.2.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.17)
+  - FacebookLogin (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.17)
+    - FBSDKLoginKit (~> 4.17)
+  - FacebookShare (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.17)
+    - FBSDKShareKit (~> 4.17)
+  - FBSDKCoreKit (4.17.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.17.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.17.0):
+    - FBSDKCoreKit
+  - ISO8601DateFormatterValueTransformer (0.6.1):
+    - RKValueTransformers (~> 1.1.0)
+  - RestKit (0.27.0):
+    - RestKit/Core (= 0.27.0)
+  - RestKit/Core (0.27.0):
+    - RestKit/CoreData
+    - RestKit/Network
+    - RestKit/ObjectMapping
+  - RestKit/CoreData (0.27.0):
+    - RestKit/ObjectMapping
+  - RestKit/Network (0.27.0):
+    - RestKit/ObjectMapping
+    - RestKit/Support
+    - SOCKit
+  - RestKit/ObjectMapping (0.27.0):
+    - ISO8601DateFormatterValueTransformer (~> 0.6.1)
+    - RestKit/Support
+    - RKValueTransformers (~> 1.1.0)
+  - RestKit/Support (0.27.0):
+    - TransitionKit (~> 2.2)
+  - RKValueTransformers (1.1.3)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SOCKit (1.1)
+  - SVProgressHUD (1.1.3)
+  - TransitionKit (2.2.1)
+  - TTTAttributedLabel (2.0.0)
+
+DEPENDENCIES:
+  - Bolts (~> 1.8)
+  - FacebookCore (from `https://github.com/facebook/facebook-sdk-swift`)
+  - FacebookLogin (from `https://github.com/facebook/facebook-sdk-swift`)
+  - FacebookShare (from `https://github.com/facebook/facebook-sdk-swift`)
+  - RestKit (~> 0.27.0)
+  - SDWebImage (~> 3.8)
+  - SVProgressHUD (~> 1.1.3)
+  - TTTAttributedLabel
+
+EXTERNAL SOURCES:
+  FacebookCore:
+    :git: https://github.com/facebook/facebook-sdk-swift
+  FacebookLogin:
+    :git: https://github.com/facebook/facebook-sdk-swift
+  FacebookShare:
+    :git: https://github.com/facebook/facebook-sdk-swift
+
+CHECKOUT OPTIONS:
+  FacebookCore:
+    :commit: 9af12818fa7e6a40f9ecb044e307f171b56f9ae9
+    :git: https://github.com/facebook/facebook-sdk-swift
+  FacebookLogin:
+    :commit: 9af12818fa7e6a40f9ecb044e307f171b56f9ae9
+    :git: https://github.com/facebook/facebook-sdk-swift
+  FacebookShare:
+    :commit: 9af12818fa7e6a40f9ecb044e307f171b56f9ae9
+    :git: https://github.com/facebook/facebook-sdk-swift
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FacebookCore: 28db13acb1fdbb7e2b00f71c38b902df17ee013b
+  FacebookLogin: 67088c0e975e5c26243ed0b5a17ab2d8d970992a
+  FacebookShare: a2c51103efac7fb16cb1260edfb8dea4a48dfb9d
+  FBSDKCoreKit: 30a21d2d7b92984b3d80497113433c00824c35e9
+  FBSDKLoginKit: 42b7129ac0373ca99eaf4cbebf4d07bd42371f59
+  FBSDKShareKit: 9b573d03fbee36cbaf42d5bb1f2bc019e0d72347
+  ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
+  RestKit: a0244db34e14ed9cf059fcee2be6733cc162c34a
+  RKValueTransformers: e5ed67e3811229b616fe01bddeeafe3bb337b1b9
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SOCKit: c7376ac262bea9115b8f749358f762522a47d392
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+
+PODFILE CHECKSUM: 4332e5bfb27a580ccdf980d52ce1f6acecc95bbb
+
+COCOAPODS: 1.1.1
